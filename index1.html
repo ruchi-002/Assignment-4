@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GeekyAnts</title>
+</head>
+<body>
+    <div class="left">
+        <span class="nav-head">GeekyAnts</span>
+        <h6 class="nav-s">MAIN</h6>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-house-user"></i>
+                <span>Dashboard</span>
+                </div>
+                <div style="background-color: #626ED4;" id="noti-box">2</div>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-calendar"></i>
+                <span>Calender</span>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-box"></i>
+                <span>UI Elements</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-brands fa-wpforms"></i>
+                <span>Forms</span>
+                </div>
+                <div style="background-color: #2AA39A;" id="noti-box">9</div>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-chart-pie"></i>
+                <span>Charts</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-table"></i>
+                <span>Tables</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-face-smile"></i>
+                <span>Icons</span>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="nav-item">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                <span>Maps</span>
+                </div>
+                <div style="background-color: #EC4561;" id="noti-box">2</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="right">
+        <!-- header -->
+        <div class="header">
+            <div class="head-left">
+                <i class="fa-solid fa-bars"></i>
+                <div class="Cre-opt">
+                    <select name="cars" id="cars">
+                        <option value="volvo">Create</option>
+                        <option value="saab">a</option>
+                        <option value="opel">ab</option>
+                        <option value="audi">abc</option>
+                      </select>
+                </div>
+            </div>
+            <div class="head-right">
+                <div class="input-box">
+                    <input type="text" placeholder="Search..">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <img style="height: 15px;" src="https://media.istockphoto.com/vectors/official-flag-of-the-united-states-of-america-vector-id1174164981?b=1&k=20&m=1174164981&s=612x612&w=0&h=REDpX2qlI4-0oTW3mJrDaWMjMvNxqCvBFzyB1QZiuBE=" alt="">
+                <select name="cars" id="cars">
+                    <option value="volvo">English</option>
+                    <option value="saab">Hindi</option>
+                    <option value="opel">French</option>
+                    <option value="audi">German</option>
+                  </select>
+                <i class="fa-solid fa-vector-square"></i>
+                <div class="noti-head">
+                    <i class="fa-solid fa-bell"></i>
+                    <div>3</div>
+                </div>
+                <img class="pro-img" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+
+            </div>
+        </div>
+
+        <!-- second header -->
+
+        <div class="sec-head">
+            <div class="Dash-head">
+                <h3>Dashboard</h3>
+                <span>Welcome to Veltrix Dashboard</span>
+            </div>
+            <div id="setting-box">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </div>
+        </div>
+
+
+        <!-- cards -->
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-top-r">
+                    <div class="card-top">
+                        <div class="img-box">
+                            <img src="images/clipboard.png" alt="">
+                        </div>
+                        <div id="small-card">
+                            <h5>ORDERS</h5>
+                            <div>
+                                <span>1,685</span>
+                                <i s style="margin-left: 10px; color: #2AA39A;" class="fa-solid fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tag">+ 12%</div>
+                </div>
+                <div class="card-bottom">
+                    <span>Since last month</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top-r">
+                    <div class="card-top">
+                        <div class="img-box">
+                            <img src="images/sticky.png" alt="">
+                        </div>
+                        <div id="small-card">
+                            <h5>REVENUE</h5>
+                            <div>
+                                <span>52,368</span>
+                                <i s style="margin-left: 5px; color: #EC4561;" class="fa-solid fa-arrow-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tag" style="background-color: #EC4561;">- 28%</div>
+                </div>
+                <div class="card-bottom">
+                    <span>Since last month</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top-r">
+                    <div class="card-top">
+                        <div class="img-box">
+                            <img src="images/pencil.png" alt="">
+                        </div>
+                        <div id="small-card">
+                            <h5>AVERAGE PRICE</h5>
+                            <div>
+                                <span>15.8</span>
+                                <i s style="margin-left: 10px; color: #2AA39A;" class="fa-solid fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tag" style="background-color: #38A5F8;"> 00%</div>
+                </div>
+                <div class="card-bottom">
+                    <span>Since last month</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-top-r">
+                    <div class="card-top">
+                        <div class="img-box">
+                            <img src="images/briefcase.png" alt="">
+                        </div>
+                        <div id="small-card">
+                            <h5>PRODUCT SOLD</h5>
+                            <div>
+                                <span>2436</span>
+                                <i s style="margin-left: 10px; color: #2AA39A;" class="fa-solid fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tag" style="background-color: #F8B425;">+ 84%</div>
+                </div>
+                <div class="card-bottom">
+                    <span>Since last month</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-div">
+            <div class="trasaction">
+                <h3 class="t-heading">Latest Trasaction</h3>
+                <table width="100%">
+                    <tr>
+                        <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+                    </tr>
+                    <tr id="tr-cell">
+                        <th>(#) Id</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+                    </tr>
+                    <tr id="tr-data">
+                        <td><span>#14256</span></td>
+                        <td class="pro-tbl">
+                            <img class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span>Aditya Puri</span>
+                        </td>
+                        <td><span>15/1/2022</span></td>
+                        <td><span>$95</span></td>
+                        <td id="tbl-btn">
+                            <div>Delivered</div>
+                        </td>
+                        <td id="tbl-edit">
+                            <div>Edit</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+                    </tr>
+                    <td><span>#14256</span></td>
+                    <td class="pro-tbl">
+                        <img class="pro-table" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070" alt="">
+                        <span>Ealine</span>
+                    </td>
+                    <td><span>15/1/2022</span></td>
+                    <td><span>$87</span></td>
+                    <td id="tbl-btn">
+                        <div style="background-color: #F8B425;">Pending</div>
+                    </td>
+                    <td id="tbl-edit">
+                        <div>Edit</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+                </tr>
+                <td><span>#14256</span></td>
+                <td class="pro-tbl">
+                    <img class="pro-table" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774" alt="">
+                    <span>Morgan</span>
+                </td>
+                <td><span>15/1/2022</span></td>
+                <td><span>$35</span></td>
+                <td id="tbl-btn">
+                    <div>Delivered</div>
+                </td>
+                <td id="tbl-edit">
+                    <div>Edit</div>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+            </tr>
+            <td><span>#14256</span></td>
+            <td class="pro-tbl">
+                <img class="pro-table" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774" alt="">
+                <span>Jack</span>
+            </td>
+            <td><span>15/1/2022</span></td>
+            <td><span>$67</span></td>
+            <td id="tbl-btn">
+                <div style="background-color: #EC4561;">Cancled</div>
+            </td>
+            <td id="tbl-edit">
+                <div>Edit</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+        </tr>
+        <td><span>#14256</span></td>
+        <td class="pro-tbl">
+            <img class="pro-table" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061" alt="">
+            <span>Hermni</span>
+        </td>
+        <td><span>15/1/2022</span></td>
+        <td><span>$55</span></td>
+        <td id="tbl-btn">
+            <div style="background-color: #F8B425;">Pending</div>
+        </td>
+        <td id="tbl-edit">
+            <div>Edit</div>
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+    </tr>
+    <td><span>#14256</span></td>
+    <td class="pro-tbl">
+        <img class="pro-table" src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774" alt="">
+        <span>Kate</span>
+    </td>
+    <td><span>15/1/2022</span></td>
+    <td><span>$90</span></td>
+    <td id="tbl-btn">
+        <div>Delivered</div>
+    </td>
+    <td id="tbl-edit">
+        <div>Edit</div>
+    </td>
+</tr>
+<tr>
+    <td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+</tr>
+<td><span>#14256</span></td>
+<td class="pro-tbl">
+    <img class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+    <span>Norman</span>
+</td>
+<td><span>15/1/2022</span></td>
+<td><span>$12</span></td>
+<td id="tbl-btn">
+    <div>Delivered</div>
+</td>
+<td id="tbl-edit">
+    <div>Edit</div>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.5px solid rgb(241, 239, 239)" colspan="100%"></td>
+</tr>
+                </table>
+                
+            </div>
+
+            <div class="chat">
+                <h3 class="t-heading">Chat</h3>
+                <div class="chat-align">
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                        <div class="chat-box1">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                    </div>
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-box2">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                    </div>
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                        <div class="chat-box1">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                    </div>
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-box2">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                    </div>
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                        <div class="chat-box1">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                    </div>
+                    <div class="chat-card" style="display: flex;">
+                        <div class="chat-box2">
+                            <h4>John Deo</h4>
+                            <span>Hello!</span>
+                        </div>
+                        <div class="chat-pro">
+                            <img style="height: 40px; width: 40px;"class="pro-table" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960" alt="">
+                            <span style="font-size: 0.9rem;">10:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-chat-box">
+                    <input type="text" placeholder="Enter your text">
+                    <div>Send</div>
+                </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

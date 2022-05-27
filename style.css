@@ -1,0 +1,377 @@
+/* body */
+body,*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #575C62;
+    /* overflow-x: hidden; */
+}
+body{
+    background-color: #F8F8FA;
+}
+/* toggle button */
+.toggle-collapase{
+    width: 30px;
+    height: 20px;
+}
+/* main container */
+.container{
+    /* transition: margin-left .5s; */
+    width: 100%;
+}
+/* header area */
+.header{
+    background: #cecece;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+}
+/* toggle button bar-line */
+.toggle-collapase bar-line{
+    width: 30px;
+    margin: 0px 0px 5px 0px;
+    border-top: 2px solid black;
+    height: 0px;
+}
+/* dropdown */
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-menu{
+    margin : 0px 10px 0px 40px;
+}
+.dropdown-menu select{
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  width: 80px;
+}
+/* search box */
+.search-box img{
+    height: 60%;
+    margin-right: 10px;
+  }
+  .search-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: #adadad;
+  }
+  /* dropdown div */
+  .header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* search bar */
+  .search-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* notification bell */
+  .notification{
+    height: 30px;
+    margin: 0px 20px 0px 20px;
+  }
+  .notification img{
+        height: 100%;
+  }
+  /* profile image */
+  .profile{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  /* main */
+  .main-content{
+    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+  }
+  /* dashboard div */
+  .dashboard-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* set image and p that one div */
+  .setting{
+    background-color: #626ED4;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 5px;
+
+  }
+  .setting p{
+    color: white;
+    margin: 0px 10px 0px 10px;
+  }
+  .setting img{
+    height: 60%
+  }
+  /* CARD  OUTER DIV */
+  .info-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+/* INNER DIV */
+  .card{
+    height: 200px;
+    width: 330px;
+    display: grid;
+    background-color: #626ED4;
+    grid-template-rows: repeat(7,1fr);
+    grid-template-columns: repeat(18,1fr);
+    border: none;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+  }
+  /* IMAGE DIV */
+  .card-icon{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background-color: #ffffff9e;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* IMAGE STYLE */
+  .card-icon img{
+    width: 70%;
+    margin: auto;
+  }
+  /* ORDERS AND PRICE STYLE */
+  .card-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column-start: 7;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+  /* STYLE OF ORDER */
+  .card-head{
+    font-size: 1.3em;
+    letter-spacing: 0px;
+    color: rgba(201, 201, 201, 0.922);
+  }
+  /* STYLE OF PRICE */
+  .card-detail{
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+  }
+  /* ARROW DIV */
+  .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 13;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
+  /* ARROW IMAGE STYLE */
+  .arrow img{
+    height: 40%;
+  }
+  /* PERCENTAGE DIV */
+  .percentage{
+    grid-column-start: 14;
+    grid-column-end: 19;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 60%;
+    margin: auto 0;
+    justify-content: flex-end;
+    padding-right: 10%;
+    /* background-color: #2AA39A; */
+    clip-path: polygon(0% 100%, 20% 50%, 0% 0%, 100% 0%, 100% 100%);
+  }
+  /* P DIV  */
+  .percentage p{
+    color: white;
+    font-size: 1.2em;
+  }
+  /* ANOTHER DIV */
+  .card-tenure{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* STYLE OF P */
+  .card_tenure p{
+    font-size: 1.2em;
+    color: rgba(201, 201, 201, 0.922);
+  }
+  /* LAST ARROW DIV */
+  .card-arrow{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 15;
+    grid-column-end: 18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* LAST ARROW DIV IMAGE STYLE */
+  .card-arrow img{
+    width: 40%;
+  }
+  /* giving background colours to different cards according to their needs */
+  .card-1 .percentage{
+    background-color: #2AA39A;
+  }
+  .card-revenue .percentage{
+    background-color: #EC4561;
+  }
+  .card-price .percentage{
+    background-color: #38A5F8;
+  }
+  .card-product .percentage{
+    background-color: #F8B425;
+  }
+
+  /* table and chat div */
+.transaction{
+  margin-top: 20px;
+width: 100%;    
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+}
+/* another div */
+.transaction-wrapper{
+  padding: 20px;
+margin: 15px;
+flex: 7;
+background-color: white;
+border-radius: 5px ;
+border: none;
+box-shadow: 10px -10px 10px 0px rgb(212, 212, 212);
+}
+/* heading */
+.trans-row{
+  margin-top: 5px;
+  border-top: 2px solid rgb(209, 209, 209);
+  padding: 5px;
+  height: 50px;
+  display: grid;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(20,1fr);
+}
+/* style of p tag */
+.trans-label{
+margin: 5px 0px 15px 0px;
+color: #575C62;
+font-size: 1.2em;
+}
+/* style of heading like id,name,amount,status and none */
+.id{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.name{
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
+.date{
+  grid-column-start: 9;
+  grid-column-end: 12;
+}
+.amount{
+  grid-column-start: 12;
+  grid-column-end: 15;
+}
+.status{
+  grid-column-start: 16;
+  grid-column-end: 19;
+}
+.none{
+  grid-column-start: 19;
+  grid-column-end: 21;
+}
+/* image style */
+.trans-row .name-data img{
+  height: 120%;
+  width: 100%;
+}
+/* image div */
+.name-data div{
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+/* style of div */
+.name-data{
+  display: flex;
+  align-items: center;
+}
+/* style of P */
+.name-data p{
+  margin: 0px 0px 0px 10px;
+}
+/* row style */
+.heading, .data-row {
+  display: flex;
+  align-items: center;
+}
+/* style of status div in p  */
+.status p{
+  font-size: 12px;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+/* button style */
+.edit button{
+  border: none;
+  background-color: #626ED4 ;
+  color: white;
+  padding: 7px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* style of delivered,pending ,cancel */
+.delivered{
+  background-color: #2AA39A;
+}
+.pending{
+  background-color: #F8B425;
+}
+.cancel{
+  background-color: #EC4561;
+}
+
+
+
+

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Geekyants</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar" id="nav">
+        <h2>GeekyAnts</h2>
+        <a href=""></a>
+        <a href="#" class="icon"></a>
+      </div>
+      <!-- code of header area -->
+      <div class="header">
+        <!-- toggle button -->
+        <div class="toggle-collapase">
+          <div class="bar-line"></div>
+          <div class="bar-line"></div>
+          <div class="bar-line"></div>
+        </div>
+        <!-- dropdown -->
+        <div class="header-content">
+          <div class="dropdown dropdown-menu">
+            <select name="create" id="create-drop">
+              <option value="create">Create</option>
+              <option value="b">abc</option>
+              <option value="c">lorem</option>
+            </select>
+          </div>
+          <!-- search,profile -->
+          <div class="search-wrap">
+            <div class="search-box">
+              <img src="images/search.png" alt="search box" />
+            </div>
+            <div class="language-dropdown dropdown-menu">
+              <select name="language" id="lang">
+                <option value="english">🇱🇷 English</option>
+                <option value="hindi">🇮🇳 Hindi</option>
+                <option value="french">🇫🇷 French</option>
+                <option value="spanish">🇦🇹 Spanish</option>
+              </select>
+            </div>
+            <i
+              class="fa-solid fa-expand"
+              style="font-size: 21px; padding: 7px"
+            ></i>
+            <!-- bell Icon -->
+            <div class="notification">
+              <img src="images/bell.png" alt="bell box" />
+            </div>
+           
+            <img
+              src="https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="profile image"
+              class="profile"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- content of page -->
+      <div class="main-content">
+        <div class="dashboard-wrap">
+          <div class="dash-label">
+            <h3>Dashboard</h3>
+            welcome to veltrix dashboard
+          </div>
+          <div class="setting">
+            <img src="images/setting-white.png" alt="" />
+            <p>Setting</p>
+          </div>
+        </div>
+        <!-- cards card-1 -->
+        <div class="info-card">
+          <div class="card card-1">
+            <div class="card-icon">
+              <img src="images/clipboard.png" alt="clipboard" />
+            </div>
+            <div class="card-info">
+              <p class="card-head">ORDERS</p>
+              <p class="card-detail">1,685</p>
+            </div>
+            <div class="arrow">
+              <img src="images/top.png" alt="top arrow" />
+            </div>
+            <div class="percentage">
+              <p>+ 12%</p>
+            </div>
+            <div class="card-tenure">
+              <p>Since Last Month</p>
+            </div>
+            <div class="card-arrow">
+              <img src="images/right.png" alt="right arrow" />
+            </div>
+          </div>
+          <!-- another card card-2 -->
+          <div class="card card-revenue">
+            <div class="card-icon">
+              <img src="images/sticky.png" alt="sticky-notes" />
+            </div>
+            <div class="card-info">
+              <p class="card-head">REVENUE</p>
+              <p class="card-detail">52,368</p>
+            </div>
+            <div class="arrow">
+              <img src="images/down.png" alt="down arrow" />
+            </div>
+            <div class="percentage">
+              <p>- 28%</p>
+            </div>
+            <div class="card-tenure">
+              <p>Since Last Month</p>
+            </div>
+            <div class="card-arrow">
+              <img src="images/right.png" alt="right arrow" />
+            </div>
+          </div>
+
+          <!-- card-3 -->
+          <div class="card card-price">
+            <div class="card-icon">
+              <img src="images/pencil.png" alt="order" />
+            </div>
+            <div class="card-info">
+              <p class="card-head">AVERAGE PRICE</p>
+              <p class="card-detail">15.8</p>
+            </div>
+            <div class="arrow">
+              <img src="images/top.png" alt="top arrow" />
+            </div>
+            <div class="percentage">
+              <p>00%</p>
+            </div>
+            <div class="card-tenure">
+              <p>Since Last Month</p>
+            </div>
+            <div class="card-arrow">
+              <img src="images/right.png" alt="right arrow" />
+            </div>
+          </div>
+          <!--card -4  -->
+          <div class="card card-product">
+            <div class="card-icon">
+              <img src="images/briefcase.png" alt="briefcase" />
+            </div>
+            <div class="card-info">
+              <p class="card-head">PRODUCT SOURCING</p>
+              <p class="card-detail">2436</p>
+            </div>
+            <div class="arrow">
+              <img src="images/top.png" alt="top arrow" />
+            </div>
+            <div class="percentage">
+              <p>+ 84%</p>
+            </div>
+            <div class="card-tenure">
+              <p>Since Last Month</p>
+            </div>
+            <div class="card-arrow">
+              <img src="images/right.png" alt="right arrow" />
+            </div>
+          </div>
+        </div>
+
+        <!-- DESIGN TRANSACTION AND CHAT -->
+        <div class="transaction">
+          <div class="transaction-wrapper">
+            <div class="scroll">
+              <p class="trans-label">
+                <b>Latest Transactions</b>
+              </p>
+              <!-- heading of table -->
+              <div class="trans-heading trans-row">
+                <div class="heading id">(#) ID</div>
+                <div class="heading nmae">Name</div>
+                <div class="heading date">Date</div>
+                <div class="heading amount">Amount</div>
+                <div class="heading status">Status</div>
+                <div class="heading none"></div>
+              </div>
+              <!-- row-1 -->
+              <div class="trans-row">
+                <div class="data-row id id-data"># 14256</div>
+                <div class="data-row name name-data">
+                  <div>
+                    <img src="images/girl1.jpg" alt="girl image" />
+                  </div>
+                  <p>Philip Sameed</p>
+                </div>
+                <div class="data-row date">15/1/2018</div>
+                <div class="data-row amount">$94</div>
+                <div class="data-row status">
+                  <p class="delivered">Delivered</p>
+                </div>
+                <div class="data-row edit"><button>Edit</button></div>
+              </div>
+              <!-- row-2 -->
+              <div class="trans-row">
+                <div class="data-row id id-data"># 14257</div>
+                <div class="data-row name name-data">
+                  <div>
+                    <img src="images/boy1.jpg" alt="boy image" />
+                  </div>
+                  <p>Brent Shipley</p>
+                </div>
+                <div class="data-row date">16/1/2019</div>
+                <div class="data-row amount">$112</div>
+                <div class="data-row status">
+                  <p class="pending">Pending</p>
+                </div>
+                <div class="data-row edit">
+                  <button>Edit</button>
+                </div>
+              </div>
+              <!-- row-3 -->
+              <div class="trans-row">
+                <div class="data-row id id-data"># 14258</div>
+                <div class="data-row name name-data">
+                  <div>
+                    <img src="images/boy2.jpg" alt="profile image" />
+                  </div>
+                  <p>Robert Sitton</p>
+                </div>
+                <div class="data-row date">17/1/2019</div>
+                <div class="data-row amount">$116</div>
+                <div class="data-row status">
+                  <p class="delivered">Delivered</p>
+                </div>
+                <div class="data-row edit">
+                  <button>Edit</button>
+                </div>
+              </div>
+              <!-- row-4 -->
+              <div class="trans-row">
+                <div class="data-row id id-data"># 14259</div>
+                <div class="data-row name name-data">
+                  <div>
+                    <img src="images/boy3.jpg" alt="men image" />
+                  </div>
+                  <p>Alberto Jackson</p>
+                </div>
+                <div class="data-row date">18/1/2019</div>
+                <div class="data-row amount">$109</div>
+                <div class="data-row status"><p class="cancel">Cancel</p></div>
+                <div class="data-row edit">
+                  <button>Edit</button>
+                </div>
+              </div>
+              <!-- row-5 -->
+              <div class="trans-row">
+                <div class="data-row id id-data"># 14260</div>
+                <div class="data-row name name-data">
+                  <div>
+                    <img src="images/boy4.jpg" alt="Display profile image" />
+                  </div>
+                  <p>David Sanchez</p>
+                </div>
+                <div class="data-row date">19/1/2019</div>
+                <div class="data-row amount">$120</div>
+                <div class="data-row status">
+                  <p class="delivered">Delivered</p>
+                </div>
+                <div class="data-row edit">
+                  <button>Edit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
